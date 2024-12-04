@@ -12,7 +12,7 @@ What this does:
 - `iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/SpringboardIT/KeeperShortcut/refs/heads/main/CreateKeeperShortcut.ps1'))} global"` Downloads the setup script and runs it.
 
 
-## Verify it worked
+## Verify
 To check if the script successfully created the shortcut, open a Run window with `Win` + `R` and run the following
 ```
 shell:startup
