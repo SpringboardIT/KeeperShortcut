@@ -1,7 +1,7 @@
 # Add Keeper to Start Menu
 
 ## Installation
-To run the script and create the startup menu item, copy and paste the following into an admin powershell prompt.
+To run the script and create the startup menu item, copy and paste the following into a powershell prompt.
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/SpringboardIT/KeeperShortcut/refs/heads/main/CreateKeeperShortcut.ps1'))} global"
 ```
